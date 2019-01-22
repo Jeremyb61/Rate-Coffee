@@ -1,0 +1,10 @@
+<img src="{{ showDetails.image }}" alt="">
+<h2>Name: {{ showDetails.roastername }}</h2>
+<h2>Varietal {{ showDetails.varietal }}</h2>
+<h2>Region: {{ showDetails.region }}</h2>
+
+<div *ngFor="let details of showDetails.rating">
+    <h3>Comments: {{ details['comments'] }}</h3>
+    <h3>Rating: {{ details['star'] }}</h3>
+    <hr>
+</div>

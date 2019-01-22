@@ -1,0 +1,48 @@
+#wrapper{
+    width:1200px;
+    outline: 1px solid black;
+    margin: auto;
+}
+.cakesubmit{
+    min-height:450px;
+    width:400px;
+    outline: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+}
+.cakedisplay{
+    min-height: 450px;
+    width: 799px;
+    outline: 1px solid red;
+    display: inline-block;
+    vertical-align: top;
+}
+.cakesubmit hr{
+    height: 1px;
+}
+.scrollspy-example{
+    position: relative;
+    height: 442px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+.cakedisplay .scrollspy-example .coffeelist{
+    min-height: 100px;
+    width: 790px;
+    display: inline-block;
+    vertical-align: top;
+  }
+.cakedisplay .scrollspy-example .coffeelist img{
+    height: 250px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+
+.rateform{
+    min-height: 251px;
+    width: 225px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:15px;
+}
